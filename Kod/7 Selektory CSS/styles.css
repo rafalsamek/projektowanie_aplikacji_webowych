@@ -1,0 +1,31 @@
+/** {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*div {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*.boxes {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*#box-one {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*#big-box > div {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*#big-box div {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+/*#box-two + div {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+#box-two ~ div {
+    border: 3px solid blue;
+}
