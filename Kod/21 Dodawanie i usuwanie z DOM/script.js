@@ -5,6 +5,8 @@ window.onload = function () {
         document.getElementById('big-box').appendChild(newElement);
     }, 2000);
 
+    console.log('Jakiś tekst');
+
     setTimeout(function () {
        let element = document.getElementById('box-two');
        let parent = document.getElementById('big-box');
