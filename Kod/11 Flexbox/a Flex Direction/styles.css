@@ -1,7 +1,10 @@
 .container {
     display: flex;
-    /*flex-direction: row;*/
-    flex-direction: column;
+    height: 400px;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
 }
 
 .box {
@@ -9,4 +12,8 @@
     height: 100px;
     background-color: orange;
     margin: 5px;
+}
+
+.self {
+    align-self: flex-start;
 }
